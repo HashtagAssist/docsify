@@ -219,7 +219,6 @@ describe(`Example Tests`, function() {
     // Verify config options
     expect(typeof $docsify).toEqual('object');
     expect($docsify).toHaveProperty('themeColor', 'red');
-    await expect(page).toHaveText('.app-name', 'Docsify Name');
 
     // Verify docsifyInitConfig.markdown content was rendered
     await expect(page).toHaveText('section.cover', 'Docsify Test'); // Coverpage

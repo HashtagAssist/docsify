@@ -16,7 +16,7 @@ var readFileSync = require('fs').readFileSync
 var renderer = new Renderer({
   template: readFileSync('./docs/index.template.html', 'utf-8'),
   config: {
-    name: 'docsify',
+    name: 'JuraIntensivDokumentation',
     repo: 'docsifyjs/docsify'
   }
 })
